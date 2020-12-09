@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Anastasia Naumenko profile',
   siteUrl: 'https://github.com/charlieplanka',
+  pathPrefix: "/vue-developer-profile",
   transformers: {
     remark: {
      externalLinksTarget: '_blank',
