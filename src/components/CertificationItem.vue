@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper mb-5">
+  <div class="wrapper mb-4">
     <div class="cert-badge mr-2">
       <a :href="certification.link" target="_blank">
         <g-image :src="certification.icon" alt="" />

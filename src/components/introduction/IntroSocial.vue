@@ -38,7 +38,7 @@ export default {
       display: block;
       width: 40px;
       height: 40px;
-      background: rgba(244, 244, 244, 0.1);
+      background: #CDC6C2;
       border-radius: 4px;
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
@@ -49,12 +49,13 @@ export default {
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
+        margin-top: 6px;
       }
     }
     a:hover {
       transform: rotate(0);
       background: rgba(244, 244, 244, 0.8);
-      color: #1453F2;
+      color: #FF3B2B;
       svg {
         -webkit-transform: rotate(0);
         -ms-transform: rotate(0);

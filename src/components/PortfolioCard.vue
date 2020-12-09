@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Card title="Portfolio">
+    <Card title="Проекты">
       <div class="row">
         <PortfolioItem
           @showDetail="onShowDetail(proj)"

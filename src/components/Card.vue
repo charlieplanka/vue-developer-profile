@@ -1,7 +1,7 @@
 <template>
   <div class="i-card py-0 mx-0">
     <div class="i-card-header">
-      <h2>{{ title }}</h2>
+      <h3>{{ title }}</h3>
     </div>
     <div class="i-card-content pt-lg-4">
       <slot></slot>

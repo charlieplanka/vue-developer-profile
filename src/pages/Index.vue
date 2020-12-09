@@ -5,20 +5,20 @@
     <div class="layout">
       <overview
         :socials="profile.socials"
-        :personal="profile.personal"
-        :coffeeDonateUrl="profile.buy_me_coffee_url"/>
-      <work-card :works="profile.works" />
-      <certification-card :certifications="profile.certifications"/>
-      <education-card :educations="profile.educations"/>
+        :personal="profile.personal"/>
+        <!-- :coffeeDonateUrl="profile.buy_me_coffee_url"/> -->
       <portfolio-card :projects="profile.projects" />
+      <certification-card :certifications="profile.certifications"/>
+      <work-card :works="profile.works" />
+      <education-card :educations="profile.educations"/>
     </div>
   </Layout>
 </template>
 
 <script>
 import Intro from '~/components/introduction/Intro.vue'
-import WorkCard from '~/components/WorkCard.vue'
 import CertificationCard from '~/components/CertificationCard.vue'
+import WorkCard from '~/components/WorkCard.vue'
 import EducationCard from '~/components/EducationCard.vue'
 import PortfolioCard from '~/components/PortfolioCard.vue'
 import Overview from '~/components/Overview.vue'
@@ -39,7 +39,7 @@ export default {
     profile
   }),
   metaInfo: {
-    title: 'Thang Minh Vu profile'
+    title: 'Anastasia Naumenko profile'
   }
 }
 </script>

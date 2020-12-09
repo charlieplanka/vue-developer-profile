@@ -22,7 +22,7 @@
           <div class="modal-footer">
             <slot name="footer">
               <button class="modal-default-button btn btn-primary" @click="$emit('close')">
-                Close
+                Закрыть
               </button>
             </slot>
           </div>
@@ -56,14 +56,13 @@ export default {
 }
 
 .modal-container {
-  width: 70%;
+  width: 50%;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -79,6 +78,10 @@ export default {
 
 .modal-body {
   margin: 20px 0;
+}
+
+img {
+    margin-bottom: 10px;
 }
 
 .modal-default-button {

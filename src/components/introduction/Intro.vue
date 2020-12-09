@@ -3,14 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
+        <!-- change to g-image -->
           <g-image class="intro-hero-img"
-            src="~/assets/images/profile.jpeg"
+            src="../../assets/images/profile-me2.jpg"
             alt=""
             quality="100"
             width="270"/>
-            <h2 class="hero-title">Hello Guys, I'm <strong>{{ personal.name }}</strong></h2>
+            <h2 class="hero-title"><strong>{{ personal.full_name }}</strong></h2>
             <p class="hero-tagline">
-              I am a
               <ClientOnly>
                 <vue-typer
                   class="typing-list"
@@ -29,7 +29,7 @@
               </ClientOnly>
             </p>
         </div>
-        <div class="col-sm-12 mt-5">
+        <div class="col-sm-12 mt-4">
           <intro-social :socials="socials" />
         </div>
       </div>
@@ -72,11 +72,11 @@ p {
   margin-bottom: 20px;
 }
 .intro-hero {
-  background: url(../../assets/images/intro-hero.jpg) no-repeat scroll 0 0;
+  background: url(../../assets/images/intro-heroine.jpg) no-repeat scroll 0 0;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 50px;
-  color: #fff;
+  color: #414141;
   position: relative;
   z-index: 1;
 }
@@ -84,12 +84,13 @@ p {
   border-radius: 50%;
 }
 .hero-title {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: normal;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .hero-tagline {
   font-size: 30px;
+  color: #414141;
 }
 </style>

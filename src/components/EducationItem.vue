@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4 class="pt-0 my-0">{{ school.degree }} <span v-if="hasDegreeAndMajor">of</span> {{ school.major }} | {{ school.name }}</h4>
+    <h5 class="pt-0 my-0">{{ school.major }}, {{ school.faculty }} | {{ school.name }}</h5>
     <div class="text-muted mt-2">
       {{ school.start }} - {{ school.end }}
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Card title="Certifications">
+    <Card title="Курсы">
       <template v-for="(cert, idx) in certifications">
         <CertificationItem
           :key="idx"

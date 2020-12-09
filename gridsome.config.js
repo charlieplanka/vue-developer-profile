@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Thang Vu profile',
-  siteUrl: 'https://me.coddeine.com',
+  siteName: 'Anastasia Naumenko profile',
+  siteUrl: 'https://github.com/charlieplanka',
   transformers: {
     remark: {
      externalLinksTarget: '_blank',

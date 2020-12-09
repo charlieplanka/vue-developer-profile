@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Card title="Employment history">
+    <Card title="Опыт работы">
       <template v-for="(work, idx) in works">
         <work-item :key="idx" :employment="work" />
         <hr class="my-5" v-if="idx !== works.length - 1">

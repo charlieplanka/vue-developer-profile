@@ -4,16 +4,16 @@
       <div class="image-container">
         <g-image
           class="thumbnail"
-          src="~/assets/images/projects/waach_thumb.png" fit="cover" v-if="project.code === 'waach'" height="240"/>
+          src="~/assets/images/projects/organisation_thumb.png" fit="cover" v-if="project.code === 'organisation-figma'" height="240"/>
         <g-image
           class="thumbnail"
-          src="~/assets/images/projects/mouse_miner_thumb.png" fit="cover" v-else-if="project.code === 'golden-mouse-miner'" height="240"/>
+          src="~/assets/images/projects/trello_thumb.png" fit="cover" v-else-if="project.code === 'trello-api'" height="240"/>
         <g-image
           class="thumbnail"
-          src="~/assets/images/projects/vuejs_shopping_cart_thumb.png" fit="cover" v-else-if="project.code === 'vuejs-shopping-cart'" height="240"/>
+          src="~/assets/images/projects/snake_thumb.png" fit="cover" v-else-if="project.code === 'snake-game'" height="240"/>
         <g-image
           class="thumbnail"
-          src="~/assets/images/projects/maze_city_thumb.png" fit="cover" v-else="project.code === 'maze-city'" height="240"/>
+          src="~/assets/images/projects/albums_thumb.png" fit="cover" v-else-if="project.code === 'music-albums'" height="240"/>
         <div class="thumbnail-controls"
           @mouseover="showControl = true"
           @mouseleave="showControl = false"
@@ -60,6 +60,10 @@ export default {
 
 .image-container {
   position: relative;
+}
+
+.thumbnail {
+    border-radius: 3%;
 }
 
 .thumbnail-controls:hover {
