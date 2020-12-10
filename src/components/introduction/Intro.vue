@@ -72,7 +72,7 @@ p {
   margin-bottom: 20px;
 }
 .intro-hero {
-  background: url(../../assets/images/intro-back.jpg) no-repeat scroll 0 0;
+  background: url(../../assets/images/intro-back.jpg) no-repeat center center fixed; 
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 50px;
