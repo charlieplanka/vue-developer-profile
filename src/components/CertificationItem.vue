@@ -39,6 +39,7 @@ export default {
 
 .cert-content {
   flex: 1;
+  margin-left: 10px;
   h4 {
     font-weight: 600;
   }

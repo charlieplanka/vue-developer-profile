@@ -5,7 +5,7 @@
         <div class="col-sm-12 text-center">
         <!-- change to g-image -->
           <g-image class="intro-hero-img"
-            src="../../assets/images/profile-me2.jpg"
+            src="../../assets/images/profile-me.jpg"
             alt=""
             quality="100"
             width="270"/>
@@ -72,25 +72,22 @@ p {
   margin-bottom: 20px;
 }
 .intro-hero {
-  background: url(../../assets/images/intro-heroine.jpg) no-repeat scroll 0 0;
+  background: url(../../assets/images/intro-back.jpg) no-repeat scroll 0 0;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 50px;
-  color: #414141;
   position: relative;
   z-index: 1;
 }
 .intro-hero-img {
   border-radius: 50%;
+  margin-bottom: 13px;
 }
 .hero-title {
   font-size: 30px;
   font-weight: normal;
   margin-top: 30px;
-  margin-bottom: 15px;
-}
-.hero-tagline {
-  font-size: 30px;
-  color: #414141;
+  margin-bottom: 10px;
+  color: #212529;
 }
 </style>

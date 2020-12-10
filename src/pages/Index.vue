@@ -6,11 +6,10 @@
       <overview
         :socials="profile.socials"
         :personal="profile.personal"/>
-        <!-- :coffeeDonateUrl="profile.buy_me_coffee_url"/> -->
       <portfolio-card :projects="profile.projects" />
       <certification-card :certifications="profile.certifications"/>
-      <work-card :works="profile.works" />
-      <education-card :educations="profile.educations"/>
+      <!-- <work-card :works="profile.works" />
+      <education-card :educations="profile.educations"/> -->
     </div>
   </Layout>
 </template>

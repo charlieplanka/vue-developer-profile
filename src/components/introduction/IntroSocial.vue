@@ -38,7 +38,7 @@ export default {
       display: block;
       width: 40px;
       height: 40px;
-      background: #CDC6C2;
+      background: #FE4622;
       border-radius: 4px;
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
