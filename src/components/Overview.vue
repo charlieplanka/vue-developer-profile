@@ -52,7 +52,7 @@ export default {
   }),
   methods: {
     downloadResume() {
-      window.open("https://drive.google.com/file/d/1gJg1A6_H60lWXE6nB9yCaI_tiIXyaizM/", "_blank")
+      window.open("https://drive.google.com/file/d/1oZ0lcjsO5GIHjkhcUjtaDVY6IsUw9v1Z/", "_blank")
     }
   }
 }
