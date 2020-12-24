@@ -42,10 +42,29 @@ export default {
   margin-left: 10px;
   h4 {
     font-weight: 600;
+    @media (max-width: 600px) {
+        font-size: 1rem;
+  }
+  }
+  
+  @media (max-width: 600px) {
+    font-size: 0.8rem;
   }
 }
 
 .break {
-    word-break: break-all;
+    overflow-wrap: break-word;
 }
 </style>
+
+
+
+
+  font-size: 25px;
+  @media (min-width: 800px) {
+    font-size: 30px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 40px;
+  }
+}
