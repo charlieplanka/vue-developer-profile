@@ -38,29 +38,43 @@
   ],
   "projects": [
     {
+        "name": "Django: приют для животных",
+        "date": "Январь 2020",
+        "code": "django-shelter",
+        "thumbnail": "django_shelter_thumb.png",
+        "image": "/assets/images/projects/django_shelter.png"
+    },
+    {
+      "name": "Django: библиотека с книгами",
+      "date": "Декабрь 2020",
+      "code": "django-library",
+      "thumbnail": "django_library_thumb.png",
+      "image": "/assets/images/projects/django_library.png"
+    },
+    {
       "name": "Страница компании",
-      "date": "June 2020",
+      "date": "Июнь 2020",
       "code": "organisation-figma",
       "thumbnail": "organisation_thumb.png",
       "image": "/assets/images/projects/organisation.png"
     },
     {
       "name": "Скрипт для работы с Trello API",
-      "date": "November 2020",
+      "date": "Ноябрь 2020",
       "code": "trello-api",
       "thumbnail": "trello_thumb.png",
       "image": "/assets/images/projects/trello.png"
     },
     {
       "name": "Игра про змейку",
-      "date": "May 2019",
+      "date": "Май 2019",
       "code": "snake-game",
       "thumbnail": "snake_thumb.png",
       "image": "/assets/images/projects/snake.png"
     },
     {
       "name": "Сервер для работы с БД альбомов",
-      "date": "August 2020",
+      "date": "Август 2020",
       "code": "music-albums",
       "thumbnail": "albums_thumb.png",
       "image": "/assets/images/projects/albums.png"

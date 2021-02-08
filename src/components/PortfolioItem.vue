@@ -14,6 +14,12 @@
         <g-image
           class="thumbnail"
           src="~/assets/images/projects/albums_thumb.png" fit="cover" v-else-if="project.code === 'music-albums'" height="240"/>
+        <g-image
+          class="thumbnail"
+          src="~/assets/images/projects/django_library_thumb.png" fit="cover" v-else-if="project.code === 'django-library'" height="240"/>
+        <g-image
+          class="thumbnail"
+          src="~/assets/images/projects/django_shelter_thumb.png" fit="cover" v-else-if="project.code === 'django-shelter'" height="240"/>
         <div class="thumbnail-controls"
           @mouseover="showControl = true"
           @mouseleave="showControl = false"
