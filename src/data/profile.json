@@ -45,11 +45,25 @@
         "image": "/assets/images/projects/django_shelter.png"
     },
     {
-      "name": "Django: библиотека с книгами",
-      "date": "Декабрь 2020",
-      "code": "django-library",
-      "thumbnail": "django_library_thumb.png",
-      "image": "/assets/images/projects/django_library.png"
+        "name": "Django: библиотека с книгами",
+        "date": "Декабрь 2020",
+        "code": "django-library",
+        "thumbnail": "django_library_thumb.png",
+        "image": "/assets/images/projects/django_library.png"
+    },
+    {
+        "name": "Галерея с картинками",
+        "date": "Сентябрь 2020",
+        "code": "goose-gallery",
+        "thumbnail": "goose_gallery_thumb.png",
+        "image": "/assets/images/projects/goose_gallery.png"
+    },
+    {
+        "name": "Чат с вебсокетом",
+        "date": "Сентябрь 2020",
+        "code": "websocket-chat",
+        "thumbnail": "websocket_chat_thumb.png",
+        "image": "/assets/images/projects/websocket_chat.png"
     },
     {
       "name": "Страница компании",

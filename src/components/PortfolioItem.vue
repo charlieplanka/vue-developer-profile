@@ -20,6 +20,12 @@
         <g-image
           class="thumbnail"
           src="~/assets/images/projects/django_shelter_thumb.png" fit="cover" v-else-if="project.code === 'django-shelter'" height="240"/>
+        <g-image
+          class="thumbnail"
+          src="~/assets/images/projects/goose_gallery_thumb.png" fit="cover" v-else-if="project.code === 'goose-gallery'" height="240"/>
+        <g-image
+          class="thumbnail"
+          src="~/assets/images/projects/websocket_chat_thumb.png" fit="cover" v-else-if="project.code === 'websocket-chat'" height="240"/>
         <div class="thumbnail-controls"
           @mouseover="showControl = true"
           @mouseleave="showControl = false"
@@ -70,6 +76,7 @@ export default {
 
 .thumbnail {
     border-radius: 3%;
+    border: 1px solid #ededed;
 }
 
 .thumbnail-controls:hover {
