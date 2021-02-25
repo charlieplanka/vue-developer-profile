@@ -38,6 +38,13 @@
   ],
   "projects": [
     {
+        "name": "Django: список психотерапевтов",
+        "date": "Февраль 2020",
+        "code": "django-therapists",
+        "thumbnail": "django_therapists_thumb.png",
+        "image": "/assets/images/projects/django_therapists.png"
+    },
+    {
         "name": "Django: приют для животных",
         "date": "Январь 2020",
         "code": "django-shelter",

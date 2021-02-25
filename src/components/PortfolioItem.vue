@@ -26,6 +26,9 @@
         <g-image
           class="thumbnail"
           src="~/assets/images/projects/websocket_chat_thumb.png" fit="cover" v-else-if="project.code === 'websocket-chat'" height="240"/>
+        <g-image
+          class="thumbnail"
+          src="~/assets/images/projects/django_therapists_thumb.png" fit="cover" v-else-if="project.code === 'django-therapists'" height="240"/>
         <div class="thumbnail-controls"
           @mouseover="showControl = true"
           @mouseleave="showControl = false"
